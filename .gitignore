@@ -1,0 +1,19 @@
+# Ignore Windows executables and build files
+*.exe
+*.out
+*.obj
+
+# Ignore VS Code settings (optional if you don’t want to share them)
+.vscode/
+
+# Ignore logs
+*.log
+
+# Mac system files (just in case)
+.DS_Store
+
+# Thumbnails or system files
+Thumbs.db
+
+# Backup files
+*~
