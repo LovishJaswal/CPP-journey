@@ -13,6 +13,7 @@ This repo contains beginner-friendly code examples categorized by topics like sy
 - if_else.cpp – Checks voting eligibility using if-else
 - nested_if.cpp – Checks both voting and election eligibility using nested if
 - grade_checker.cpp – Assigns grade based on marks using if-else-if ladder
+- switch_statement.cpp – Uses a switch statement to print the day of the week
 - comparison_operators.cpp – Uses ==, !=, <, >, <=, >= to compare two integers
 - logical_operators.cpp – Demonstrates logical AND, OR, and NOT
 - arithmetic_operators.cpp – Shows +, -, *, /, and % with two integers
@@ -46,4 +47,3 @@ This is a personal learning repo — everything is written from scratch. No copy
 ## Current Focus
 
 I'm currently working on conditionals and loops. Next up: functions and arrays in more detail.
-
