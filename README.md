@@ -1,52 +1,51 @@
 # C++ Basics Repository
 
-Welcome to my C++ practice repository. This is where I'm writing and organizing simple C++ programs as I revise all the basics step by step. Everything is written and tested by me.
+Welcome to my C++ practice repository!  
+This is where I’m writing and organizing beginner-friendly C++ programs as I revise all the core concepts step by step — from syntax to loops, and eventually to mini-projects. Everything is written and tested by me.
 
----
+## Project Structure
 
-## What's Inside
+- Basics/
+- Conditional_statements/
+- Loops/
+- Operators/
+- Structures/
+- README.md
 
-This repo contains beginner-friendly code examples categorized by topics like syntax, input/output, conditionals, loops, arrays, operators, and structures.
+Each folder contains relevant `.cpp` files with clean code and comments.
 
-- hello_world.cpp – Basic syntax and structure of a C++ program  
-- input_output.cpp – Demonstrates user input and output using cin and cout  
-- if_else.cpp – Checks voting eligibility using if-else  
-- nested_if.cpp – Checks both voting and election eligibility using nested if  
-- grade_checker.cpp – Assigns grade based on marks using if-else-if ladder  
-- switch_statement.cpp – Uses a switch statement to print the day of the week  
-- comparison_operators.cpp – Uses ==, !=, <, >, <=, >= to compare two integers  
-- logical_operators.cpp – Demonstrates logical AND, OR, and NOT  
-- arithmetic_operators.cpp – Shows +, -, *, /, and % with two integers  
-- assignment_operators.cpp – Demonstrates assignment operations like +=, -=, &= etc.  
-- for_loop.cpp – Prints numbers from 1 to n using a for loop  
-- while_loop.cpp – Uses while loop to print numbers from 1 to n  
-- do_while_loop.cpp – Uses do-while to count down from n to 1  
-- break_continue.cpp – Demonstrates how to use break and continue statements inside a loop  
-- arrays.cpp – Initializes and prints elements from a character array  
-- Structures.cpp – Defines a struct to store and display details of three students  
+## Topics Covered
 
----
+### Basics
+- hello_world.cpp – Syntax and basic output
+- input_output.cpp – User input/output with cin and cout
+- Syntax.cpp – General C++ structure overview
 
-## Folder Plan
+### Loops
+- For_loop.cpp – Prints numbers from 1 to n
+- While_loop.cpp – Prints numbers using while loop
+- Do_While.cpp – Countdown using do-while
+- Break_Continue.cpp – Use of break and continue inside loops
 
-Right now, everything is inside the `Basics` folder. Later, I plan to organize topics into subfolders like:
+### Conditional Statements
+- If_else.cpp – Voting eligibility check
+- Nested_if.cpp – Voting and election eligibility
+- Grade_checker.cpp – Grading system using if-else-if
+- Switch_case.cpp – Day of the week using switch
 
-- loops/  
-- conditional_statements/  
-- operators/  
-- arrays/  
-- functions/  
-- classes/  
-- structures/  
+### Operators
+- Arithmetic_operators.cpp – +, -, *, /, %
+- Assignment_operators.cpp – =, +=, -=, etc.
+- Comparison_operators.cpp – ==, !=, <, >, <=, >=
+- Logical_operators.cpp – &&, ||, !
 
----
+### Structures
+- Structures.cpp – Defines a struct for student data
 
-## Note
+## How to Run
 
-This is a personal learning repo — everything is written from scratch. No copy-pasting from online sources or tutorials. I'm updating it as I learn, one step at a time.
+To compile and run any `.cpp` file:
 
----
-
-## Current Focus
-
-I'm currently working on conditionals, loops, and user-defined types like `struct`. Next up: functions, classes, and arrays in more depth.
+```bash
+g++ filename.cpp -o output
+./output
