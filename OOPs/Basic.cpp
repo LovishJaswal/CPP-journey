@@ -26,5 +26,10 @@ int main(){
     dog3.breed = "Labrador";
     dog3.details();
 
+    Dog dog4;
+    dog4.name = "jabru";
+    dog4.breed = "desi";
+    dog4.details();
+
     return 0;
 }
